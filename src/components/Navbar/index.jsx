@@ -2,6 +2,7 @@ import styles from './NavBar.module.css';
 import Logo from '../../assets/images/cubeLogo.png'
 import { Link } from 'react-router-dom'
 import { FaBars } from "react-icons/fa"
+import { AiOutlineInstagram } from "react-icons/ai"
 import { IoCloseSharp } from "react-icons/io5"
 import { useState } from 'react';
 
