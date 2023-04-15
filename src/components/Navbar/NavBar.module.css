@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 8rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.extendedNav {
+  display: none;
+}
+
+.mobileNav {
+  display: flex;
+  position: absolute;
+  width: 80vw;
+  top: 15vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: var(--grey);
+}
+
+.mobileMenuIcon {
+  font-size: 1.5rem;
+}
+
+.navigationItemMobile {
+  padding: 0.5rem 1rem;
+}

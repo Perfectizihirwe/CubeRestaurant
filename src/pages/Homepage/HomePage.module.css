@@ -1,0 +1,27 @@
+/* This is the css for the Homepage, it is a mobile-first design approach */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroImage {
+    height: 50rem;
+  }
+}
